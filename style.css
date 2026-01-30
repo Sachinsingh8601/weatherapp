@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea, #764ba2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 340px;
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+  text-align: center;
+  color: white;
+}
+
+.card h1 {
+  font-size: 26px;
+}
+
+.subtitle {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.search-box button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  background: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.location-btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  background: rgba(255,255,255,0.25);
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.weather-info h2 {
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+.weather-info p {
+  font-size: 16px;
+  margin: 5px 0;
+}

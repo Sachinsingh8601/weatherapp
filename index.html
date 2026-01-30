@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Modern Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <h1>🌤️ Weather App</h1>
+    <p class="subtitle">Real-time weather forecast</p>
+
+    <div class="search-box">
+      <input type="text" id="city" placeholder="Enter city name">
+      <button onclick="getWeather()">Search</button>
+    </div>
+
+    <button class="location-btn" onclick="getLocationWeather()">
+      📍 Use Current Location
+    </button>
+
+    <div class="weather-info" id="weather"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
